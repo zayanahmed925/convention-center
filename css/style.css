@@ -1,3 +1,16 @@
 .body{
     font-family: 'Poppins', sans-serif;
 }
+
+.orchid-price-card{
+    padding: 90px 5px 5px 5px;
+    margin: 0 10px;
+    border: none;
+}
+.orchid-special-card{
+    background-color: rgb(97, 104, 197);
+    padding: 55px 20px 20px 20px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 20px;
+}
