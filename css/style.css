@@ -1,16 +1,39 @@
 .body{
     font-family: 'Poppins', sans-serif;
 }
-
+.orchid-title-color{
+    color: #5249d1;
+}
 .orchid-price-card{
-    padding: 90px 5px 5px 5px;
-    margin: 0 10px;
     border: none;
+}
+
+.orchid-price-card button{
+    background-color: #f0c9e7;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.orchid-vip-card-button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 0;
+    border: none;
+}
+.orchid-button-text{
+    color:rgb(97, 104, 197);
+    font-weight: 700;
 }
 .orchid-special-card{
     background-color: rgb(97, 104, 197);
-    padding: 55px 20px 20px 20px;
-    margin: 0 20px;
     border: none;
-    border-radius: 20px;
+    padding: 20px 10px 10px 10px;
+    transform: translateY(-30px);
+    box-shadow: 0 20px 30px rgb(143, 163, 216);
+}
+@media (max-width: 992px) {  
+    .orchid-special-card{
+        margin-top: 50px;
+        padding-bottom: 0;
+    }
 }
