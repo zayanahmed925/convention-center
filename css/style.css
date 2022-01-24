@@ -20,6 +20,15 @@
     padding: 10px 0;
     border: none;
 }
+.gallery button{
+    margin-top: 20px;
+    padding: 10px 100px;
+    background-color: #f0c9e7;
+    border: none;
+    border-radius: 20px;
+   font-weight: 700;
+   color: #5249d1;
+}
 .orchid-button-text{
     color:rgb(97, 104, 197);
     font-weight: 700;
@@ -30,6 +39,12 @@
     padding: 20px 10px 10px 10px;
     transform: translateY(-30px);
     box-shadow: 0 20px 30px rgb(143, 163, 216);
+}
+.gallery-card:hover{
+    box-shadow: 0 10px 30px gray;
+    /* padding-top: 10px; */
+    margin-top: 5px;
+    transition-duration: 0.4s;
 }
 @media (max-width: 992px) {  
     .orchid-special-card{
