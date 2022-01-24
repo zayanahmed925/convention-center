@@ -1,13 +1,44 @@
+/* Google Font */
 .body{
     font-family: 'Poppins', sans-serif;
 }
+.orchid-button-text{
+    color:rgb(97, 104, 197);
+    font-weight: 700;
+}
 .orchid-title-color{
-    color: #5249d1;
+    color: #0d0b2e;
 }
-.orchid-price-card{
+/* Banner Part */
+.banner-first-img{
+    background:url("/images/banner-5.jpg") center/cover no-repeat;
+    height: 75vh;
+    position: relative;
+}
+.banner-second-img{
+    background: url("/images/banner-2.jpg") center/cover no-repeat ;
+    height: 75vh;
+    position: relative;
+}
+.banner-third-img{
+    background: url("/images/banner.png") center/cover no-repeat ;
+    height: 75vh;
+    position: relative;
+}
+/* Recent Work gallery */
+.gallery button{
+    margin-top: 10px;
+    padding: 10px 100px;
+    background-color: #f0c9e7;
     border: none;
+    border-radius: 20px;
+   font-weight: 700;
+   color: #5249d1;
 }
-
+/* Price card */
+.orchid-price-card{
+    margin: 0 40px;
+}
 .orchid-price-card button{
     background-color: #f0c9e7;
     border: none;
@@ -20,35 +51,26 @@
     padding: 10px 0;
     border: none;
 }
-.gallery button{
-    margin-top: 10px;
-    padding: 10px 100px;
-    background-color: #f0c9e7;
-    border: none;
-    border-radius: 20px;
-   font-weight: 700;
-   color: #5249d1;
-}
-.orchid-button-text{
-    color:rgb(97, 104, 197);
-    font-weight: 700;
-}
 .orchid-special-card{
     background-color: rgb(97, 104, 197);
     border: none;
-    padding: 20px 10px 10px 10px;
-    transform: translateY(-30px);
+    padding: 20px 10px 13px 15px;
+    transform: translateY(-35px);
     box-shadow: 0 20px 30px rgb(143, 163, 216);
+    margin: 0 45px;
+    border-radius: 20px;
 }
 .gallery-card:hover{
     box-shadow: 0 10px 30px gray;
     margin-top: 5px;
     transition-duration: 0.4s;
 }
+/* Footer */
 footer{
     background-color: #0f0c1d;
-    color: white;
+    color: rgba(255, 255, 255, 0.74);
 }
+/* Card small device */
 @media (max-width: 992px) {  
     .orchid-special-card{
         margin-top: 50px;
